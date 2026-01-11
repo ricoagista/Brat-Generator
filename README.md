@@ -11,7 +11,7 @@ Keluarkan vibe brat Anda dengan setiap irama! Buat gambar teks yang bergaya dan 
   - Opsi Biru, Kuning, Magenta, Cyan, Oranye, dan Pink
 - **Perataan Teks**: Ratakan teks Anda ke kiri, tengah, atau kanan
 - **Dukungan Mode Gelap**: Beralih antara tema terang dan gelap dengan penyimpanan lokal
-- **Metadata PNG**: Gambar menyertakan metadata untuk organisasi yang lebih baik
+- **Informasi PNG**: Gambar menyertakan informasi file untuk organisasi yang lebih baik
 - **Unduh Sekali Klik**: Unduh gambar yang dihasilkan langsung ke perangkat Anda
 - **Desain Responsif**: Bekerja dengan mulus di perangkat desktop dan mobile
 
@@ -66,7 +66,7 @@ Brat-Generator/
 - Teks default adalah "brat" jika Anda membiarkan input kosong
 - Jumlah karakter diperbarui secara real-time
 - Preferensi tema disimpan di penyimpanan lokal browser Anda
-- Semua gambar yang dihasilkan adalah format PNG dengan dukungan metadata
+- Semua gambar yang dihasilkan adalah format PNG dengan dukungan informasi lengkap
 
 ## 🛠️ Detail Teknis
 
@@ -78,7 +78,7 @@ Brat-Generator/
 
 ### Backend (PHP)
 - Pembuatan gambar dinamis menggunakan library GD
-- Penyisipan metadata PNG untuk deskripsi gambar
+- Penyisipan informasi PNG untuk deskripsi gambar
 - Dukungan untuk penentuan posisi teks dan perataan kustom
 - Rendering font dengan dukungan TTF
 
@@ -91,7 +91,7 @@ Brat-Generator/
    - Warna latar belakang kustom
    - Teks yang dirender dengan font yang dipilih
    - Perataan teks yang tepat
-   - Metadata PNG untuk organisasi
+   - Informasi file untuk organisasi
 5. Gambar dikembalikan ke browser untuk ditampilkan/diunduh
 
 ## 🌙 Dukungan Tema
@@ -129,7 +129,7 @@ Jika Anda mengalami masalah atau memiliki pertanyaan, silakan buka issue di repo
 - Pembuatan gambar batch
 - Integrasi media sosial untuk berbagi dengan mudah
 - Efek teks animasi
-- Opsi metadata tambahan
+- Opsi informasi file tambahan
 
 ---
 
